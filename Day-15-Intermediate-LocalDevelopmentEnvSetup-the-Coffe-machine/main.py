@@ -33,7 +33,7 @@ resources = {
 def main():
     user_input = ""
     while user_input != "off":
-        user_input = input("What whould you like?")
+        user_input = input("What whould you like? ")
         if user_input == "off":
             return print("Good bye")
         elif user_input == "report":
@@ -70,11 +70,3 @@ def main():
                 elif resources["milk"] <= MENU["latte"]['ingredients']['milk']:
                     print("Sorry, there's not enough milk")
 main()
-
-# def check_resources(user_input):
-#     if resources["water"] <= MENU["cappuccino"]['ingredients']['water']:
-#         print("Sorry, there's not enough water")
-#     elif resources["coffee"] <= MENU["cappuccino"]['ingredients']['coffee']:
-#         print("Sorry, there's not enough coffee")
-#     elif resources["milk"] <= MENU["latte"]['ingredients']['milk']:
-#         print("Sorry, there's not enough milk")
