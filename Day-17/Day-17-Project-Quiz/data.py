@@ -1,14 +1,102 @@
 question_data = [
-    {"text": "A slug's blood is green.", "answer": "True"},
-    {"text": "The loudest animal is the African Elephant.", "answer": "False"},
-    {"text": "Approximately one quarter of human bones are in the feet.", "answer": "True"},
-    {"text": "The total surface area of a human lungs is the size of a football pitch.", "answer": "True"},
-    {"text": "In West Virginia, USA, if you accidentally hit an animal with your car, you are free to take it home to eat.", "answer": "True"},
-    {"text": "In London, UK, if you happen to die in the House of Parliament, you are entitled to a state funeral.", "answer": "False"},
-    {"text": "It is illegal to pee in the Ocean in Portugal.", "answer": "True"},
-    {"text": "You can lead a cow down stairs but not up stairs.", "answer": "False"},
-    {"text": "Google was originally called 'Backrub'.", "answer": "True"},
-    {"text": "Buzz Aldrin's mother's maiden name was 'Moon'.", "answer": "True"},
-    {"text": "No piece of square dry paper can be folded in half more than 7 times.", "answer": "False"},
-    {"text": "A few ounces of chocolate can to kill a small dog.", "answer": "True"}
+{
+"category": "History",
+"type": "boolean",
+"difficulty": "medium",
+"question": "Sargon II, a king of the Neo-Assyrian Empire, was a direct descendant of Sargon of Akkad.",
+"correct_answer": "False",
+"incorrect_answers": [
+"True"
+]
+},
+{
+"category": "Geography",
+"type": "boolean",
+"difficulty": "medium",
+"question": "The longest place named in the United States is Lake Chargoggagoggmanchauggagoggchaubunagungamaugg, located near Webster, MA.",
+"correct_answer": "True",
+"incorrect_answers": [
+"False"
+]
+},
+{
+"category": "Science: Mathematics",
+"type": "boolean",
+"difficulty": "hard",
+"question": "The binary number &quot;101001101&quot; is equivalent to the Decimal number &quot;334&quot;",
+"correct_answer": "False",
+"incorrect_answers": [
+"True"
+]
+},
+{
+"category": "Science: Computers",
+"type": "boolean",
+"difficulty": "easy",
+"question": "Linux was first created as an alternative to Windows XP.",
+"correct_answer": "False",
+"incorrect_answers": [
+"True"
+]
+},
+{
+"category": "Entertainment: Film",
+"type": "boolean",
+"difficulty": "medium",
+"question": "The movie &quot;Tron&quot; received an Oscar nomination for Best Visual Effects.",
+"correct_answer": "False",
+"incorrect_answers": [
+"True"
+]
+},
+{
+"category": "Entertainment: Music",
+"type": "boolean",
+"difficulty": "hard",
+"question": "The singer Billie Holiday was also known as &quot;Lady Day&quot;.",
+"correct_answer": "True",
+"incorrect_answers": [
+"False"
+]
+},
+{
+"category": "General Knowledge",
+"type": "boolean",
+"difficulty": "medium",
+"question": "The pickled gherkin was first added to hamburgers because a US health law required all fast-food to include a source of Vitamin C.",
+"correct_answer": "False",
+"incorrect_answers": [
+"True"
+]
+},
+{
+"category": "Vehicles",
+"type": "boolean",
+"difficulty": "hard",
+"question": "The term &quot;GTO&quot; was originated by Ferrari?",
+"correct_answer": "True",
+"incorrect_answers": [
+"False"
+]
+},
+{
+"category": "General Knowledge",
+"type": "boolean",
+"difficulty": "easy",
+"question": "Slovakia is a member of European Union-",
+"correct_answer": "True",
+"incorrect_answers": [
+"False"
+]
+},
+{
+"category": "Entertainment: Video Games",
+"type": "boolean",
+"difficulty": "easy",
+"question": "There are 2 player roles in Trouble in Terrorist Town.",
+"correct_answer": "False",
+"incorrect_answers": [
+"True"
+]
+}
 ]
